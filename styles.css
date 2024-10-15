@@ -1,0 +1,126 @@
+.page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.form__label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.form__input,
+.form__select,
+.form__submit {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form__submit {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form__submit:hover {
+  background-color: #2980b9;
+}
+
+.result {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+
+.result__qrcode {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+  background-color: #27ae60;
+}
+
+.custom-file-upload__input[type="file"] {
+  display: none;
+}
+
+.merchant-info {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e8f4fd;
+  border-radius: 4px;
+  border: 1px solid #bde0fe;
+}
+
+.merchant-info__title {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.merchant-info__text {
+  margin: 0.5rem 0;
+}
+
+.about {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-left: 5px solid #3498db;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about__title {
+  color: #2c3e50;
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.about__description {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #34495e;
+}

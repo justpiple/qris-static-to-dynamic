@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konverter QRIS Statis ke Dinamis</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.3.1/dist/jsQR.min.js"></script>
+</head>
+
+<body class="page">
+  <div class="container">
+    <h1 class="title">Konverter QRIS Statis ke Dinamis</h1>
+
+    <div class="qris-input">
+      <label for="qrisImageInput" class="qris-input__upload custom-file-upload">
+        Unggah Gambar QRIS Statis
+      </label>
+      <input type="file" id="qrisImageInput" class="qris-input__file" style="display: none;" accept="image/*">
+      <canvas id="qrisCanvas" class="qris-input__canvas" style="display: none;"></canvas>
+    </div>
+
+    <div id="merchantInfo" class="merchant-info"></div>
+
+    <form id="qrisForm" class="form">
+      <div class="form__group">
+        <label for="amountInput" class="form__label">Nominal:</label>
+        <input type="text" id="amountInput" class="form__input" required>
+        <input type="hidden" id="realAmountInput">
+      </div>
+
+      <div class="form__group">
+        <label for="serviceFee" class="form__label">Biaya Layanan (Admin)?</label>
+        <select id="serviceFee" class="form__select">
+          <option value="n">Tidak</option>
+          <option value="y">Ya</option>
+        </select>
+      </div>
+
+      <div id="serviceFeeOptions" class="form__group service-fee" style="display: none;">
+        <label for="feeType" class="form__label">Rupiah atau Persen?</label>
+        <select id="feeType" class="form__select">
+          <option value="r">Rupiah</option>
+          <option value="p">Persen</option>
+        </select>
+        <label for="feeValue" class="form__label">Biaya Layanan:</label>
+        <input type="number" id="feeValue" class="form__input">
+      </div>
+
+      <button type="submit" class="form__submit">Cetak QRIS Dinamis</button>
+    </form>
+
+    <div class="result">
+      <h3>QRIS Dinamis:</h3>
+      <div id="qrcode" class="result__qrcode"></div>
+    </div>
+
+    <section id="about" class="about">
+      <h2 class="about__title">Informasi</h2>
+      <p class="about__description">Aplikasi ini memungkinkan Anda mengubah kode QRIS (Quick Response Code Indonesian
+        Standard) statis menjadi dinamis. Aplikasi ini bekerja sepenuhnya secara offline di browser Anda, memastikan
+        keamanan dan privasi data
+        QRIS Anda. Cukup unggah gambar QRIS statis Anda, atur jumlah yang diinginkan dan biaya layanan (jika ada), dan
+        cetak
+        kode QRIS dinamis Anda.</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
