@@ -3,6 +3,11 @@
 [**Live Demo**](https://justpiple.github.io/qris-static-to-dynamic/) 🎉
 
 Convert your static QRIS (Quick Response Code Indonesian Standard) codes into dynamic ones effortlessly with this web-based tool. Operates **entirely offline**, ensuring complete security and privacy for your QRIS data.
+[**Live Demo**](https://justpiple.github.io/qris-static-to-dynamic/) 🎉
+
+Convert your static QRIS (Quick Response Code Indonesian Standard) codes into dynamic ones effortlessly with this web-based tool. Operates **entirely offline**, ensuring complete security and privacy for your QRIS data.
+
+## ✨ Features
 
 ## ✨ Features
 
@@ -11,6 +16,13 @@ Convert your static QRIS (Quick Response Code Indonesian Standard) codes into dy
 - **Customizable amounts & service fees** – Set fixed amounts or percentages for added convenience.
 - **Display merchant information** – Automatically display merchant details extracted from the QRIS.
 - **Generate dynamic QR codes** – Instantly create new QR codes for dynamic QRIS transactions.
+- **Upload static QRIS images** – Seamlessly upload and process static QRIS codes.
+- **Convert to dynamic QRIS** – Customize your QRIS by adding specific amounts or service fees.
+- **Customizable amounts & service fees** – Set fixed amounts or percentages for added convenience.
+- **Display merchant information** – Automatically display merchant details extracted from the QRIS.
+- **Generate dynamic QR codes** – Instantly create new QR codes for dynamic QRIS transactions.
+
+## ⚙️ How It Works
 
 ## ⚙️ How It Works
 
@@ -22,6 +34,8 @@ Convert your static QRIS (Quick Response Code Indonesian Standard) codes into dy
 
 ## 🔧 Technologies Used
 
+## 🔧 Technologies Used
+
 - **HTML5** – For a clean and responsive user interface.
 - **CSS** – Custom styles for a sleek design.
 - **JavaScript (ES6+)** – Powers the core functionality.
@@ -29,6 +43,20 @@ Convert your static QRIS (Quick Response Code Indonesian Standard) codes into dy
 - **qrcode-generator** – For generating dynamic QR codes.
 
 ## 🚀 Quick Start
+
+## 🚀 Quick Start
+
+1. **Clone this repository**:
+
+   ```bash
+   git clone https://github.com/justpiple/qris-static-to-dynamic.git
+   ```
+
+2. **Open the project**: Navigate to the project folder and open `index.html` in your web browser. The tool runs entirely on the client-side, so no additional setup is required!
+
+### [Live Demo](https://justpiple.github.io/qris-static-to-dynamic/)
+
+## 🤝 Contributing
 
 1. **Clone this repository**:
 
@@ -46,4 +74,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as needed.
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as needed.
