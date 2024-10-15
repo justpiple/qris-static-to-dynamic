@@ -1,42 +1,49 @@
 # QRIS Static to Dynamic Converter
 
-This web-based tool allows users to convert static QRIS (Quick Response Code Indonesian Standard) codes into dynamic ones. It operates entirely offline in the user's browser, ensuring the security and privacy of QRIS data.
+[**Live Demo**](https://justpiple.github.io/qris-static-to-dynamic/) 🎉
 
-## Features
+Convert your static QRIS (Quick Response Code Indonesian Standard) codes into dynamic ones effortlessly with this web-based tool. Operates **entirely offline**, ensuring complete security and privacy for your QRIS data.
 
-- Convert static QRIS codes to dynamic ones
-- Upload QRIS static images
-- Set custom amounts for dynamic QRIS
-- Add optional service fees (fixed amount or percentage)
-- Display merchant information from the QRIS code
-- Generate QR code for the dynamic QRIS
+## ✨ Features
 
-## How It Works
+- **Upload static QRIS images** – Seamlessly upload and process static QRIS codes.
+- **Convert to dynamic QRIS** – Customize your QRIS by adding specific amounts or service fees.
+- **Customizable amounts & service fees** – Set fixed amounts or percentages for added convenience.
+- **Display merchant information** – Automatically display merchant details extracted from the QRIS.
+- **Generate dynamic QR codes** – Instantly create new QR codes for dynamic QRIS transactions.
 
-1. Upload a static QRIS image
-2. The tool reads the QRIS data and displays merchant information
-3. Enter the desired amount and any service fees
-4. The tool generates a new dynamic QRIS code
-5. A QR code is displayed for the dynamic QRIS
+## ⚙️ How It Works
 
-## Technologies Used
+1. **Upload a static QRIS image**: Select or drag-and-drop your QRIS image into the tool.
+2. **Extract data**: The tool decodes the static QRIS and displays the merchant information.
+3. **Set transaction amount**: Input the amount and any optional service fees.
+4. **Generate dynamic QRIS**: A new QR code will be created for dynamic use.
+5. **Scan or download**: The dynamic QR code can be scanned or downloaded for immediate use.
 
-- HTML5
-- CSS
-- JavaScript (ES6+)
-- jsQR (for reading QR codes)
-- qrcode-generator (for generating QR codes)
+## 🔧 Technologies Used
 
-## Setup
+- **HTML5** – For a clean and responsive user interface.
+- **CSS3** – Custom styles for a sleek design.
+- **JavaScript (ES6+)** – Powers the core functionality.
+- **jsQR** – A robust library for reading QR codes.
+- **qrcode-generator** – For generating dynamic QR codes.
 
-1. Clone this repository
-2. Open `index.html` in a modern web browser
-3. No server setup is required as this is a client-side application
+## 🚀 Quick Start
 
-## Contributing
+1. **Clone this repository**:
+
+   ```bash
+   git clone https://github.com/justpiple/qris-static-to-dynamic.git
+   ```
+
+2. **Open the project**: Navigate to the project folder and open `index.html` in your web browser. The tool runs entirely on the client-side, so no additional setup is required!
+
+### [Live Demo](https://justpiple.github.io/qris-static-to-dynamic/)
+
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as needed.
